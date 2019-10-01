@@ -64,3 +64,141 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	margin-bottom: 15px;
+	margin: 0 auto;
+}
+body{
+	margin: 0 auto;
+	width: 1000px;
+}
+/* Navigation Code*/
+
+#navbar{
+	vertical-align: middle;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	height: 45px;
+	margin: 0 auto;
+}
+
+#navlogo{
+	display: inline-block;
+	vertical-align: middle;
+	float: right
+}
+
+nav a{
+	padding-left: 30px;
+	color:gray;
+	text-decoration: none;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+nav{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-decoration: none;
+	padding 0px 100px 0px 0px;
+}
+
+
+	/* End navigation code, beginning of Innovation Header code*/
+
+#innovation-header{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+.innovate{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 49%;
+}
+
+h1{
+	text-align: center;
+	font-size: 80px;
+	padding: 0px 100px;
+	width: 55%
+	vertical-align: top;
+	display: inline-block;
+}
+
+button{
+	border-radius: 10px;
+	background: white;
+	vertical-align: top;
+	margin-top: 5px;
+	padding: 10px 50px;
+	font-size: 14px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover{
+	color: blue;
+	background-color:white;
+}
+
+#innovateimg{
+	display: inline-block;
+	vertical-align: middle;
+	width: 49%
+	float: right;
+}
+
+/* End header code, begin top content */
+.top-content{
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+#features, #about{
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	position: relative;
+	padding: 25px;
+	line-height: 20px;
+}
+/* End top content, begin bottom content code */
+.bottom-content{
+	width: 100%
+	vertical-align: middle;
+	text-align: left;
+}
+#services, #product, #vision{
+	display: inline-block;
+	width: 27%;
+	margin: 10px 30px 20px 30px;
+	line-height: 20px;
+	padding: 25px 0px;
+}
+
+.middle-img{
+	text-align: center;
+	width: 100%;
+}
+
+/* Contact Code */
+.contact{
+	text-align: left;
+	margin-top: 30px;
+	margin: bottom: 75px;
+	font-size: 16px
+}
+
+/* Footer Code */
+
+footer{
+	padding: 25 px 0px 0px 0px;
+	font-size: 13px
+}
